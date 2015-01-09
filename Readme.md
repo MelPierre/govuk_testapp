@@ -47,3 +47,12 @@ In the asset pipeline add reference to the toolkit
 * *= require design-patterns/_buttons
 * *= require _colours
 
+You also need to add a main.css.scss and add 
+@import 'design-patterns/buttons';
+
+.button {
+  @include button;
+}
+
+to see the styles applied to the classes.
+
