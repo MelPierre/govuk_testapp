@@ -1,0 +1,5 @@
+@import 'design-patterns/buttons';
+
+.button {
+  @include button;
+}

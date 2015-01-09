@@ -1,8 +1,8 @@
 
-<% content_for :stylesheets do %>
+<% content_for :head do %>
   <%= stylesheet_link_tag "application", media: "all" %>
 <% end %>
-<% content_for :javascripts do %>
+<% content_for :body_end do %>
   <%= javascript_include_tag "application" %>
 <% end %>
 
