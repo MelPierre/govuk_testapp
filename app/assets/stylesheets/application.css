@@ -13,7 +13,7 @@
  *= require_tree .
  *= require_self
 
- 
+
  *= require design-patterns/_buttons
  *= require _colours
  */

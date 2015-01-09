@@ -16,8 +16,3 @@
 //= require_tree .
 //=require govuk_toolkit
 
-// $(document).ready(function() {
-//    $("input[type='submit']").click(function(){
-//       $(this).css('background-color','red');
-//     });
-// });
